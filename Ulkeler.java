@@ -47,7 +47,7 @@ public class Ulkeler {
 	    @OneToMany(mappedBy="ulke",orphanRemoval = true,cascade = CascadeType.ALL)//Tablolarýn iliþkisini tanýmlamak için mappedBy kullanýlýr.
 	                                                                                  //mappedBy kullanýlmayan taraf sahip sayýlýr.
 
-	    //mappedBy kullandýgýmýz sýnýf icin iliþkiler tablosu olusmaz
+	    //mappedBy kullandýgýmýz sýnýf icin iliþkiler tablosu olusmaz.
 
 	
 	    
